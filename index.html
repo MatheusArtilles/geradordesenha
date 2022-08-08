@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="https://kit.fontawesome.com/c600d5d8fe.js" crossorigin="anonymous"></script>
+    <title>Gerador de Senha</title>
+</head>
+<body>
+    <div class="container">
+        <div class="conteudo">
+           <div id="area-titulo">
+            <h1>Gerador de senha</h1>
+           </div>
+            
+           <div id="area-tamanho">
+                <h5 id="tamanho">12</h5>
+           </div>
+           
+            <input class="ranger" type="range" id="escolha" min="8" max="16" value="8-16" onchange="mostrarRange()">
+           
+
+            <div id="area-botao">
+                <button class="btn-gera" type="button" id="botao">Gerar senha</button>
+            </div>
+            
+            <div id="area-resultado">
+                <h3 id="resultado"></h3>
+            </div> 
+            <div id="area-copia">
+                <button class="btn-copia" type="button" onclick="copiaTexto()">Copiar</button>
+                
+            </div>
+            <div id="area-sucesso">
+                <h4>Senha copiada!</h4>
+            </div>
+
+
+       </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

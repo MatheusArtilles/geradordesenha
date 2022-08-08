@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2? family= Work+Sans:ital,wght@1.300 & display=swap');
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background: rgb(21,121,35);
+background: linear-gradient(110deg, rgba(21,121,35,1) 20%, rgba(2,161,15,1) 54%, rgba(54,230,0,1) 86%);
+    font-family: 'Work Sans', sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(21,121,35);
+    background: linear-gradient(110deg, rgba(21,121,35,1) 20%, rgba(2,161,15,1) 54%, rgba(54,230,0,1) 86%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo {
+    width: 450px;
+    height: 570px;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    align-items: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.3); 
+    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    /*top: calc(50% - 250px);
+    left: calc(50% - 200px);*/
+    
+}
+.ranger {
+    transform: scale(1.6);
+    appearance: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 50%;
+    margin-left: 110px;
+    background-color: #7ed957;
+    border-radius: 10px;
+    height: 5px;
+    cursor: pointer;
+}
+.ranger::-webkit-slider-thumb{
+    appearance: none;
+    display: block;
+    width: 20px;
+    height: 23px;
+    position: relative;
+    z-index: 1;
+    border-radius: 700px;
+    /*background-color: #37b700;*/
+    background-image: url(../img/lock-solid-2.svg);
+    background-size: cover;
+    
+}
+
+#area-botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.btn-gera {
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    border: 2px solid #fff;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 300px;
+    cursor: pointer;
+    background: transparent;
+    
+}
+.btn-gera:hover {
+    background: #fff;
+    color: #37b700;
+    transition: 0.3s;
+}
+.btn-gera:focus {
+    outline: none;
+}
+.btn-copia {
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 20px;
+    border-radius: 300px;
+    cursor: pointer;
+    background: transparent;
+}
+.btn-copia:hover {
+    background: rgb(21,121,35);
+    background: linear-gradient(110deg, rgba(21,121,35,1) 20%, rgba(2,161,15,1) 54%, rgba(54,230,0,1) 86%);
+    border: none;
+    transition: 0.4s;
+}
+#area-resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 30px;
+    padding: 3px;
+    transition: 0.4s;
+    display: none;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    width: 70%;
+}
+#area-resultado #resultado {
+    margin-left: 60px;
+}
+#area-sucesso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7ed957;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    color: #1a4f03;
+    margin-top: 15px;
+    margin-left: 115px;
+    transition: 0.4s;
+    display: none;
+    padding: 5px;
+}
+#area-sucesso h4 {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#area-titulo {
+    display: flex;
+    justify-content: center;
+}
+#area-copia {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    transition: 0.4s;
+    display: none;
+}
+#area-copia .btn-copia {
+    margin-left: 120px;
+}
+#area-titulo {
+    font-family: 'Gunplay';
+    font-size: 20px;
+    color: #1a4f03;
+    margin-top: 10px;
+}
+#area-tamanho {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    font-size: 25px;
+    color: #fff;
+
+    
+}

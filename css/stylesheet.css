@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Gunplay 3D';
+    src: url('../fontes/Gunplay3D-Regular.woff2') format('woff2'),
+        url('../fontes/Gunplay3D-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunplay';
+    src: url('../fontes/Gunplay-Regular.woff2') format('woff2'),
+        url('../fontes/Gunplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
