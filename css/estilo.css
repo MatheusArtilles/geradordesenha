@@ -99,6 +99,7 @@ background: linear-gradient(110deg, rgba(21,121,35,1) 20%, rgba(2,161,15,1) 54%,
 .btn-copia:hover {
     background: rgb(21,121,35);
     background: linear-gradient(110deg, rgba(21,121,35,1) 20%, rgba(2,161,15,1) 54%, rgba(54,230,0,1) 86%);
+    color: #04006c;
     border: none;
     transition: 0.4s;
 }
@@ -109,6 +110,7 @@ background: linear-gradient(110deg, rgba(21,121,35,1) 20%, rgba(2,161,15,1) 54%,
     margin-left: 60px;
     margin-top: 30px;
     padding: 3px;
+    text-align: center;
     transition: 0.4s;
     display: none;
     font-size: 20px;
@@ -116,9 +118,6 @@ background: linear-gradient(110deg, rgba(21,121,35,1) 20%, rgba(2,161,15,1) 54%,
     border: 2px solid #fff;
     border-radius: 20px;
     width: 70%;
-}
-#area-resultado #resultado {
-    margin-left: 60px;
 }
 #area-sucesso {
     display: flex;
